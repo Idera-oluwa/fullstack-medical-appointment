@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
-import {BsHeart,BsShare} from 'react-icons/bs'
+import {BsHeart,BsShare,BsPeople} from 'react-icons/bs'
 import {LiaBarsSolid} from 'react-icons/lia'
 import Link from 'next/link'
 
@@ -34,6 +34,31 @@ const Profile = () => {
     <div className='px-[0.5cm] mt-[0.5cm]'>
     <p className='text-[0.9rem]'>Dr. Cayden Stack</p>
     <p className='text-[0.6rem] mt-[0.2cm]'>MBBS - Gynecology</p>
+    </div>
+    <div>
+      <div className='flex flex-row px-[0.5cm] mt-[1rem] items-center justify-between'>
+     <div className='flex flex-row items-center gap-[1rem]'>
+    <BsPeople className='text-lighter-primary text-[1.2rem]'/>
+    <div className='flex flex-col'>
+    <p className='text-[0.65rem]'>Patient</p>
+    <p className='text-[0.75rem] font-semibold text-primary'>2.05K</p>
+    </div>
+     </div>
+     <div className='flex flex-row items-center gap-[1rem]'>
+    <BsPeople className='text-lighter-primary text-[1.2rem]'/>
+    <div className='flex flex-col'>
+    <p className='text-[0.65rem]'>Review</p>
+    <p className='text-[0.75rem] font-semibold text-primary'>5.3K</p>
+    </div>
+      </div>
+     <div className='flex flex-row items-center gap-[1rem]'>
+    <BsPeople className='text-lighter-primary text-[1.2rem]'/>
+    <div className='flex flex-col'>
+    <p className='text-[0.65rem]'>Experience</p>
+    <p className='text-[0.75rem] font-semibold text-primary'>7 Years</p>
+    </div>
+     </div>
+      </div>
     </div>
 </div>
   )
