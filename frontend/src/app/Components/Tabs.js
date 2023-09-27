@@ -11,7 +11,7 @@ const ProfileTabs = () => {
       <Tabs.Group
       aria-label="Tabs with underline"
       style="underline"
-      className='justify-between px-[0.5cm]'
+      className='justify-between px-[0.5cm] border-t border-1-gray-100'
     >
       <Tabs.Item
         active
