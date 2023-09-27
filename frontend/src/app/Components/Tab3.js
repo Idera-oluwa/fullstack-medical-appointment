@@ -114,8 +114,8 @@ const Tab3 = () => {
           <div className='text-dark font-bold text-[0.5rem] bg-warning w-[1.5rem] h-[0.8rem] rounded-full flex justify-center items-center'><p>4.9</p></div>
         </div>
       </div>
-      
       </div>
+      <p className='text-primary text-center text-[0.8rem] underline mt-[0.5cm] font-semibold cursor-pointer'>Tap here to see all reviews</p>
     </div>
   )
 }
