@@ -6,7 +6,7 @@ const Tab3 = () => {
   console.log(starsArray.length)
   
   return (
-    <div className='bg-gray-100 py-[0.5cm] pb-[8rem]'>
+    <div className='bg-gray-100 py-[0.5cm] pb-[8rem] mt-[-0.5cm] mx-[-0.5cm]'>
       <p className='px-[0.5cm] text-[0.93rem] font-semibold text-dark'>Review &#40;2350&#41;</p>
       <div className=' mt-[0.5cm] flex flex-col gap-[0.1rem]'>
       <div className='px-[0.5cm] bg-white py-[0.25cm] flex flex-row items-center'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tab2 = () => {
   return (
-    <div className='bg-gray-100 p-[0.5cm] flex flex-col gap-[0.5cm] pb-[8rem]'>
+    <div className='bg-gray-100 p-[0.5cm] flex flex-col gap-[0.5cm] pb-[8rem] mt-[-0.5cm] mx-[-0.5cm]'>
       <div className='bg-white p-[0.5cm] shadow-md'>
         <p className='text-[0.95rem] font-semibold text-dark'>American Medical College & Hospital</p>
         <div className='mt-[1rem]'>
