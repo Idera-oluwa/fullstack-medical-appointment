@@ -40,21 +40,21 @@ const Profile = () => {
     <div>
       <div className='flex flex-row px-[0.5cm] mt-[1rem] items-center justify-between'>
      <div className='flex flex-row items-center gap-[1rem]'>
-    <BsPeople className='text-lighter-primary text-[1.2rem]'/>
+    <BsPeople className='text-light-primary text-[1.2rem]'/>
     <div className='flex flex-col'>
     <p className='text-[0.65rem]'>Patient</p>
     <p className='text-[0.75rem] font-semibold text-primary'>2.05K</p>
     </div>
      </div>
      <div className='flex flex-row items-center gap-[1rem]'>
-    <BsStar className='text-lighter-primary text-[1.2rem]'/>
+    <BsStar className='text-light-primary text-[1.2rem]'/>
     <div className='flex flex-col'>
     <p className='text-[0.65rem]'>Review</p>
     <p className='text-[0.75rem] font-semibold text-primary'>5.3K</p>
     </div>
       </div>
      <div className='flex flex-row items-center gap-[1rem]'>
-    <FaMedal className='text-lighter-primary text-[1.2rem]'/>
+    <FaMedal className='text-light-primary text-[1.2rem]'/>
     <div className='flex flex-col'>
     <p className='text-[0.65rem]'>Experience</p>
     <p className='text-[0.75rem] font-semibold text-primary'>7 Years</p>
