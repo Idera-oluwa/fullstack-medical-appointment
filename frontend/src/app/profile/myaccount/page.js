@@ -2,13 +2,10 @@
 import React from 'react'
 import {LiaBarsSolid} from 'react-icons/lia'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
-import {BiSolidEdit,BiVideo} from 'react-icons/bi'
+import {BiSolidEdit} from 'react-icons/bi'
 import {PiCaretRightBold} from 'react-icons/pi'
-import {TbHome} from 'react-icons/tb'
-import {BsChatLeftDots,BsPerson} from 'react-icons/bs'
-import {IoMdSearch} from 'react-icons/io'
 import Link from 'next/link'
-import Footer from '../../Components/footer'
+import Footer from '../../Components/Footer'
 
 const page = () => {
   return (
@@ -67,15 +64,15 @@ const page = () => {
         </div>
     </div>
     <div className='flex flex-col mt-[1rem] gap-[0.1rem] outline outline-1 outline-gray-200 rounded-[10px] overflow-hidden'>
-    <div className='bg-white flex flex-row p-[1rem] justify-between items-center'>
+    <div className='bg-white flex flex-row p-[1rem] justify-between items-center cursor-pointer'>
     <p>My Appointment</p>
     <div className='outline outline-1 outline-gray-200 w-[2rem] h-[2rem] rounded-full flex items-center justify-center'><PiCaretRightBold className='text-dark cursor-pointer'/></div>
     </div>
-    <div className='bg-white flex flex-row p-[1rem] justify-between items-center'>
+    <div className='bg-white flex flex-row p-[1rem] justify-between items-center cursor-pointer'>
     <p>History</p>
     <div className='outline outline-1 outline-gray-200 w-[2rem] h-[2rem] rounded-full flex items-center justify-center'><PiCaretRightBold className='text-dark cursor-pointer'/></div>
     </div>
-    <div className='bg-white flex flex-row p-[1rem] justify-between items-center'>
+    <div className='bg-white flex flex-row p-[1rem] justify-between items-center cursor-pointer'>
     <p>Favorite Doctor</p>
     <div className='outline outline-1 outline-gray-200 w-[2rem] h-[2rem] rounded-full flex items-center justify-center'><PiCaretRightBold className='text-dark cursor-pointer'/></div>
     </div>
