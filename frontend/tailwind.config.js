@@ -27,6 +27,9 @@ module.exports = {
         'light-warning': '#fbf2d9',
         'orange': '#FF8811',
         'light-orange': '#f8efea',
+        'primary-bg-subtle':'#cfe2ff',
+        'success-bg-subtle':'#d1e7dd',
+        'secondary-bg-subtle':'#f8f9fa'
       },
     },
   },
