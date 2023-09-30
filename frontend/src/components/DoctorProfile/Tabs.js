@@ -12,7 +12,7 @@ const ProfileTabs = () => {
   return (
     <div className="mt-[1cm] w-full ">
       <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
-        <Tab.List className="flex w-full justify-between items-center h-[53px] gap-1  bg-white shadow-sm text-base border-t border-t-bs transition-all">
+        <Tab.List className="flex w-full justify-between items-center h-[53px] gap-1  bg-white shadow-small text-base border-t border-t-bs transition-all">
           <Tab
             className={`w-[33%] h-full border-b-[3px] border-transparent ${
               selectedIndex === 0 &&

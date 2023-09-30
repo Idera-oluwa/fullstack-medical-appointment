@@ -14,10 +14,15 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        sm: "0 0.125rem 0.25rem rgba(33,37,41,.075)!important",
+        small: "0 0.125rem 0.25rem rgba(33 37 41 / 0.075)!important",
+        normal:
+          " 0 6px 24px 0 rgb(0 0 0 / 7%), 0 0 0 1px rgb(0 0 0 / 4%)!important",
       },
       borderColor: {
         bs: "#dee2e6",
+      },
+      fontSize: {
+        small: "11.375px",
       },
       colors: {
         dark: "#1b1e42",

@@ -1,5 +1,5 @@
 import React from "react";
-import Tabs from "../../Components/Tabs";
+import Tabs from "../../../components/DoctorProfile/Tabs";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { BsHeart, BsShare, BsPeople, BsStar } from "react-icons/bs";
 import { LiaBarsSolid } from "react-icons/lia";

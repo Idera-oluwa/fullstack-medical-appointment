@@ -11,3 +11,16 @@ button {
 body {
   @apply font-karla;
 }
+
+.horizontal-overflow::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.horizontal-overflow::-webkit-scrollbar-track:horizontal {
+  @apply bg-white dark:bg-[#151515] rounded-[0px] h-[10px];
+}
+
+.horizontal-overflow::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 rounded-[14px];
+}
