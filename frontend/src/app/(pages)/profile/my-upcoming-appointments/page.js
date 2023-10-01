@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../../components/profilePage/Header";
-import BottomNav from "../../../components/BottomNav";
+import Header from "../../../../components/profilePage/Header";
+import BottomNav from "../../../../components/BottomNav";
 import { FaRegCalendarAlt, FaPhoneAlt, FaMedal } from "react-icons/fa";
 import { BsPeople, BsStar } from "react-icons/bs";
 

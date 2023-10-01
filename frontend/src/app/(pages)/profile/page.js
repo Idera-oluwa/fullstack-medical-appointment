@@ -5,7 +5,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { BiSolidEdit } from "react-icons/bi";
 import { PiCaretRightBold } from "react-icons/pi";
 import Link from "next/link";
-import Footer from "../../../components/BottomNav";
+import Footer from "@components/BottomNav";
 
 const page = () => {
   return (

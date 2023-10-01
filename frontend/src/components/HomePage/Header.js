@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProfileImg from "@/public/Images/profilepic1.jpg";
 
-const Header = () => {
+const Header = ({ ToggleSideBar }) => {
   return (
     <div className=" px-[0.5cm] sticky top-0 shadow-small py-[1rem] bg-white w-full">
       <div className="flex flex-row items-center justify-between w-full">
@@ -22,7 +22,7 @@ const Header = () => {
             />
           </Link>
           <div className="flex flex-col w-[5cm]">
-            <p className="text-[0.875rem] text-orange">Welcome</p>
+            <p className="text-small text-orange">Welcome</p>
             <p className="font-semibold text-primary cursor-pointer text-[0.81rem]">
               Hey, Samantha!
             </p>
@@ -35,7 +35,10 @@ const Header = () => {
           <div className=" w-[2rem] h-[2rem] rounded-full flex items-center justify-center shadow-normal">
             <BsBell className="text-primary cursor-pointer" />
           </div>
-          <div className=" w-[2rem] h-[2rem] rounded-full flex items-center justify-center shadow-normal">
+          <div
+            className=" w-[2rem] h-[2rem] rounded-full flex items-center justify-center shadow-normal"
+            onClick={ToggleSideBar}
+          >
             <LiaBarsSolid className="text-primary cursor-pointer" />
           </div>
         </div>

@@ -1,6 +1,7 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Header from "../../components/HomePage/Header";
-import Dashboard from "../../components/Dashboard";
 import DoctorImg from "../../../public/Images/doctor.png";
 import MedicineImg from "../../../public/Images/medicine.png";
 import ScheduleImg from "../../../public/Images/schedule.png";
@@ -16,14 +17,22 @@ import AvailableDoctor2 from "../../../public/Images/available-doctor-2.jpg";
 import AvailableDoctor1 from "../../../public/Images/available-doctor-1.jpg";
 import AvailableDoctor4 from "../../../public/Images/available-doctor-4.jpg";
 import Image from "next/image";
-import Footer from "@components/BottomNav";
+import Sidebar from "@/src/components/sidebar";
 
 const Home = () => {
   //w-[90vw] md:w-[75vw] lg:w-[83vw]
+  const [openSideBar, setIsOpenSideBar] = useState(false);
+
+  const ToggleSideBar = () => {
+    setIsOpenSideBar(!openSideBar);
+  };
+  const closeSideBar = () => {
+    setIsOpenSideBar(false);
+  };
   return (
     <div className="min-h-screen bg-light pb-[120px]">
-      <Header />
-      <Footer />
+      <Header ToggleSideBar={ToggleSideBar} />
+      <Sidebar openSideBar={openSideBar} closeSideBar={closeSideBar} />
       {/* The rest of the components in the homepage*/}
       <main className="w-full bg-light pt-4 ">
         <section className="grid grid-cols-4 w-full max-w-[420px] px-4 my-4 gap-2 mx-auto">
@@ -227,8 +236,6 @@ const Home = () => {
               </div>
             </article>
             <article className="flex-col rounded-[10px] bg-white">
-              {" "}
-              flex-wrap
               <div className="relative">
                 <Image
                   src={AvailableDoctor3}
@@ -271,8 +278,6 @@ const Home = () => {
               </div>
             </article>
             <article className="flex-col rounded-[10px] bg-white">
-              {" "}
-              flex-wrap
               <div className="relative">
                 <Image
                   src={AvailableDoctor4}
