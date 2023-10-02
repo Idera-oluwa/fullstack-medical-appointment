@@ -4,6 +4,7 @@ import BottomNav from "../../../../components/BottomNav";
 import Cards from '../../../../components/MyAppointment/AppointmentCard'
 import { FaMedal } from "react-icons/fa";
 import { BsPeople, BsStar } from "react-icons/bs";
+import Link from 'next/link'
 
 const page = () => {
   return (
