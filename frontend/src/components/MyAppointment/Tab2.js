@@ -10,28 +10,28 @@ const Tab2 = () => {
     name='Dr. Mahububa Islam'
     role='Gynecology'
     date='20 Nov 2023'
-    action='SUCCESS'
+    action='COMPLETE'
     /></Link>
     <Link href="/profile/my-upcoming-appointments"><Cards 
     img='/Images/available-doctor-2.png'
     name='Dr. Morgan'
     role='Dentist'
     date='18 Nov 2023'
-    action='SUCCESS'
+    action='COMPLETE'
     /></Link>
     <Link href="/profile/my-upcoming-appointments"><Cards 
     img='/Images/available-doctor-3.png'
     name='Dr. Leabow'
     role='Gynecology'
     date='15 Nov 2023'
-    action='SUCCESS'
+    action='COMPLETE'
     /></Link>
     <Link href="/profile/my-upcoming-appointments"><Cards 
     img='/Images/available-doctor-4.jpg'
     name='Dr. Leabow'
     role='Gynecology'
     date='15 Nov 2023'
-    action='SUCCESS'
+    action='COMPLETE'
     /></Link>
   </div>
   )
