@@ -1,44 +1,21 @@
 import React from "react";
 import Header from "../../../../components/profilePage/Header";
 import BottomNav from "../../../../components/BottomNav";
-import { FaRegCalendarAlt, FaPhoneAlt, FaMedal } from "react-icons/fa";
+import Cards from '../../../../components/MyAppointment/AppointmentCard'
+import { FaMedal } from "react-icons/fa";
 import { BsPeople, BsStar } from "react-icons/bs";
 
 const page = () => {
   return (
     <div className="bg-gray-100 mt-[4.5rem] mb-[3cm]">
       <Header text={"Upcoming Appointment"} />
-      <div className="flex flex-row bg-white px-[0.5cm] pt-[1rem] items-center pb-[1rem]">
-        <div className="flex flex-row gap-[1rem] items-center">
-          <div className="w-[1.9cm] h-[1.9cm] ">
-            <img
-              src="/Images/available-doctor-1.jpg"
-              alt=""
-              className="rounded-[10px] object-cover h-[100%] w-full"
-            />
-          </div>
-          <div className="flex flex-col">
-            <p className="font-semibold text-[0.9rem] text-dark">
-              Dr. Mahububa Islam
-            </p>
-            <p className="text-secondary text-[0.75rem] mt-[0.3rem]">
-              Gynecology
-            </p>
-            <div className="flex flex-row mt-[0.8rem] items-center gap-[0.2cm]">
-              <FaRegCalendarAlt className="text-primary text-[0.7rem]" />
-              <p className="text-secondary text-[0.7rem]">20 Nov 2023</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col ml-auto gap-[0.9rem]">
-          <div className="bg-[#c0eef789] flex items-center justify-center w-[1cm] h-[1cm] rounded-full ml-auto">
-            <FaPhoneAlt className="text-light-primary" />
-          </div>
-          <div className="px-[0.5rem] py-[0.115rem] rounded-full bg-success-bg-subtle">
-            <p className="text-[0.55rem] text-success">RUNNING</p>
-          </div>
-        </div>
-      </div>
+      <Cards 
+      img='/Images/available-doctor-1.jpg'
+      name='Dr. Mahububa Islam'
+      role='Gynecology'
+      date='20 Nov 2023'
+      action='RUNNING'
+      />
       <div className="flex flex-row px-[0.5cm] py-[1rem] items-center justify-between bg-white shadow-md border-t border-1 border-gray-200">
         <div className="flex flex-row items-center gap-[1rem]">
           <BsPeople className="text-light-primary text-[1.2rem]" />
