@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className='bg-gray-100'>
       <Header text='Favorite Doctors'/>
-     <div className='flex flex-col mt-[4.5rem] gap-[0.3rem] bg-gray-100 mb-[5rem]'>
+     <div className='flex flex-col mt-[4.5rem] gap-[0.3rem] bg-gray-100 mb-[6.5rem]'>
      <div className='flex flex-row items-center p-[1rem] bg-white mt-[0.3rem]'>
        <div className='flex flex-row items-center gap-[1rem]'>
        <img src='/Images/top-doctor-2.jpg' alt='' className='w-[50px] h-[50px] rounded-full'/>
