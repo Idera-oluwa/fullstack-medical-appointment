@@ -6,6 +6,7 @@ import Tab3 from "./Tab3";
 import { Tab } from "@headlessui/react";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { useState } from "react";
+import Link from "next/link";
 
 const ProfileTabs = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -51,14 +52,19 @@ const ProfileTabs = () => {
           </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
-      <div className="flex flex-row  gap-[3%] px-4 justify-between fixed bottom-0 mb-0 w-full  py-[1rem] bg-gray-100 ">
-        <div className="flex flex-row items-center justify-center gap-[0.3cm] w-[48.5%] h-[1.5cm] bg-white hover:bg-light-primary rounded-[10px] outline outline-1 outline-light-primary cursor-pointer hover:text-white text-light-primary">
+      <div className="flex flex-row  gap-[5%] px-4  fixed bottom-0 mb-0 w-full  py-[1rem] bg-gray-100 justify-center">
+        <div className="flex w-full flex-row items-center justify-center gap-[0.3cm]  h-[1.5cm] bg-white hover:bg-light-primary rounded-[10px] outline outline-1 outline-light-primary cursor-pointer hover:text-white text-light-primary">
           <BsFillCameraVideoFill className="" />
           <p className="font-semibold">Call</p>
         </div>
-        <div className="flex flex-row items-center justify-center gap-[0.3cm] w-[48.5%] h-[1.5cm] bg-light-primary rounded-[10px] cursor-pointer">
-          <p className="text-white font-semibold">Book</p>
-        </div>
+        <Link
+          href="/dashboard/book-appointment"
+          className="cursor-pointer w-full"
+        >
+          <div className="flex flex-row items-center justify-center gap-[0.3cm] w-full h-[1.5cm] bg-light-primary rounded-[10px] cursor-pointer">
+            <p className="text-white font-semibold">Book</p>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -47,7 +47,7 @@ const Dashboard = ({ openSideBar, closeSideBar }) => {
           }`}
         />
       ),
-      route: "/profile/my-appointments",
+      route: "/profile/my-appointment",
     },
     {
       name: "History",

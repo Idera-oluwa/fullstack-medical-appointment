@@ -12,7 +12,7 @@ const Header = ({ ToggleSideBar }) => {
     <div className=" px-[0.5cm] sticky top-0 shadow-small py-[1rem] bg-white w-full">
       <div className="flex flex-row items-center justify-between w-full">
         <div className="flex flex-row gap-[1rem] w-[50%]">
-          <Link href="/Pages/Profile">
+          <Link href="/dashboard/profile">
             <Image
               width={35}
               height={35}
