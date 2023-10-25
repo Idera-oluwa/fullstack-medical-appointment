@@ -9,12 +9,25 @@ button {
 }
 
 body {
-  @apply font-karla;
+  @apply font-karla overflow-x-hidden;
+}
+
+html {
+  @apply overflow-x-hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-medium leading-[1.2];
 }
 
 .horizontal-overflow::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
 }
 
 .horizontal-overflow::-webkit-scrollbar-track:horizontal {
@@ -22,5 +35,31 @@ body {
 }
 
 .horizontal-overflow::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 rounded-[14px];
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.invisible-scrollbar::-webkit-scrollbar-track:horizontal {
+  @apply rounded-[0px] h-[0px];
+}
+
+.invisible-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-200;
+}
+
+.vertical-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.vertical-scrollbar::-webkit-scrollbar-track:vertical {
+  @apply bg-white dark:bg-[#4f4e4e] rounded-[0px] w-[10px];
+}
+
+.vertical-scrollbar::-webkit-scrollbar-thumb {
   @apply bg-gray-200 rounded-[14px];
 }

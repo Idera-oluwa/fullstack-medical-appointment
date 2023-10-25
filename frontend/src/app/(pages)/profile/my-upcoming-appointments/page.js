@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../../../components/profilePage/Header";
 import BottomNav from "../../../../components/BottomNav";
-import Cards from '../../../../components/MyAppointment/AppointmentCard'
+import Cards from "../../../../components/MyAppointment/AppointmentCard";
 import { FaMedal } from "react-icons/fa";
 import { BsPeople, BsStar } from "react-icons/bs";
 import Link from 'next/link'
@@ -10,12 +10,12 @@ const page = () => {
   return (
     <div className="bg-gray-100 mt-[4.5rem] mb-[3cm]">
       <Header text={"Upcoming Appointment"} />
-      <Cards 
-      img='/Images/available-doctor-1.jpg'
-      name='Dr. Mahububa Islam'
-      role='Gynecology'
-      date='20 Nov 2023'
-      action='RUNNING'
+      <Cards
+        img="/Images/available-doctor-1.jpg"
+        name="Dr. Mahububa Islam"
+        role="Gynecology"
+        date="20 Nov 2023"
+        action="RUNNING"
       />
       <div className="flex flex-row px-[0.5cm] py-[1rem] items-center justify-between bg-white shadow-md border-t border-1 border-gray-200">
         <div className="flex flex-row items-center gap-[1rem]">
@@ -102,7 +102,6 @@ const page = () => {
           </p>
         </div>
       </div>
-      <BottomNav />
     </div>
   );
 };

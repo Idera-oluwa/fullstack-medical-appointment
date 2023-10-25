@@ -67,11 +67,13 @@ const BottomNav = () => {
   };
   return (
     <div className="px-4 fixed bottom-[1rem] mx-auto flex justify-center items-center w-full  z-[1000]">
-      <div className="flex flex-row items-center justify-between  shadow-normal bg-white px-4 sm:px-[2rem]  mt-[2rem] w-full max-w-[500px] rounded-[10px]">
+      <div className="flex flex-row items-center justify-between  shadow-normal bg-white px-4 sm:px-[2rem]  mt-[2rem] w-full max-w-[90%] sm:max-w-[500px] rounded-[10px]">
         {tabs.map((tab, index) => {
           const route = tab.route;
           console.log(pathname, route);
-          const active = pathname === route;
+          const active =
+            (pathname === "/" && route === "/") ||
+            (pathname.startsWith(route) && route !== "/");
           return (
             <div
               className={`flex flex-col py-[1rem] text-[#989898] gap-[0.3rem] cursor-pointer items-center border-b-[4px]   ${
