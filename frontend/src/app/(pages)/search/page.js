@@ -1,9 +1,6 @@
 import Header from "@/src/components/search/header";
-import Link from "next/link";
 import React from "react";
-import { AiOutlineArrowLeft } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
-import { LiaBarsSolid } from "react-icons/lia";
 
 const Search = () => {
   return (
