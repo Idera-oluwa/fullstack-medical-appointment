@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <Header text='History'/>
-      <div className='bg-white mt-[5rem]'>
+      <div className='bg-white'>
       <div className="w-full bg-light h-[1.2cm] mt-[1rem]  rounded-[10px] flex flex-row px-4 py-1 items-center shadow-normal">
         <BsSearch className="text-primary font-bold w-6 h-6 " />
         <input

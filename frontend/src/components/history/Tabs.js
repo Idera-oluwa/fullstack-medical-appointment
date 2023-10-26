@@ -12,7 +12,7 @@ const Tabs = () => {
       <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
         <Tab.List className="flex w-full justify-between items-center h-[53px] gap-1  bg-white shadow-small text-base border-t border-t-bs transition-all">
           <Tab
-            className={`w-[33%] h-full border-b-[3px] border-transparent ${
+            className={`w-[33%] h-full border-b-[3px] border-transparent text-[14px] ${
               selectedIndex === 0 &&
               "text-[#14bef0] border-b-[#14bef0] bg-[#eefbff] font-medium"
             }`}
@@ -20,7 +20,7 @@ const Tabs = () => {
             Message
           </Tab>
           <Tab
-            className={`w-[33%] h-full border-b-[3px] border-transparent ${
+            className={`w-[33%] h-full border-b-[3px] border-transparent text-[14px] ${
               selectedIndex === 1 &&
               "text-[#14bef0] border-b-[#14bef0] bg-[#eefbff] font-medium"
             }`}
@@ -28,7 +28,7 @@ const Tabs = () => {
             Voice Call
           </Tab>
           <Tab
-            className={`w-[33%] h-full border-b-[3px] border-transparent ${
+            className={`w-[33%] h-full border-b-[3px] border-transparent text-[14px] ${
               selectedIndex === 2 &&
               "text-[#14bef0] border-b-[#14bef0] bg-[#eefbff] font-medium"
             }`}
