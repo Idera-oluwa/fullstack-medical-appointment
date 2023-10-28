@@ -112,7 +112,7 @@ const page = () => {
         <div className="w-full bg-white h-[1.2cm] mt-[0.3rem]  rounded-[10px] flex flex-row px-4 py-1 items-center border border-1 border-gray-200">
           <MdOutlinePhone className="text-dark font-bold w-6 h-6 " />
           <input
-            type="text"
+            type="number"
             placeholder="Type your number"
             name='phone'
             value='08086***111'
