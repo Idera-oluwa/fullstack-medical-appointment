@@ -2,7 +2,7 @@ import React from 'react'
 import {BsPersonCircle} from 'react-icons/bs'
 import { LiaBarsSolid } from "react-icons/lia";
 import {MdOutlineLock,MdOutlineMailOutline,MdOutlinePersonAdd} from "react-icons/md"; 
-
+//responsiveness will start soon
 const signin = () => {
   return (
     <div className='bg-light min-h-[100vh] pt-[3rem] px-[2rem]'>
