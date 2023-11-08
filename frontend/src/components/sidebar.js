@@ -107,13 +107,13 @@ const Dashboard = ({ openSideBar, closeSideBar }) => {
   };
   return (
     <section
-      className={`fixed z-[2000] min-w-[100vw] top-0 min-h-[100vh] bg-black/20 transition-all ease-out md:bg-transparent md:relative md:min-w-fit md:min-h-fit  ${
+      className={`fixed z-[2000] md:w-0  min-w-[100vw] top-0 h-[100vh] bg-black/20 transition-all ease-out md:bg-transparent  md:min-w-fit   ${
         openSideBar ? "translate-x-0" : "translate-x-[-100%] md:translate-x-0"
       }`}
     >
       <div
         ref={wrapperRef}
-        className="fixed bg-white top-0 border-r border-l-black w-[270px] min-h-screen h-[100vh] "
+        className="fixed bg-white bottom-0 border-r border-l-black w-[270px] h-screen "
       >
         <div className="flex flex-row gap-[1rem] px-4 py-[14px] w-full pl-4 bg-primary">
           <Link href="/dasboard/Profile">

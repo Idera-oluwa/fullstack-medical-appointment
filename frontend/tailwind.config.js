@@ -41,9 +41,12 @@ module.exports = {
         "primary-bg-subtle": "#cfe2ff",
         "success-bg-subtle": "#d1e7dd",
         "secondary-bg-subtle": "#f8f9fa",
+        "info-bg": "rgb(13,202,240)",
+        "info-bg-light": "#cff4fc",
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
+        SofiaSans: ["Sofia Sans", "sans-serif"],
       },
     },
   },
