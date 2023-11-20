@@ -10,10 +10,9 @@ import { useOutsideAlerter } from "../utils/handleOutsideClick";
 
 const Dashboard = ({ openSideBar, closeSideBar }) => {
   console.log(openSideBar);
-
   const router = useRouter();
   const wrapperRef = useRef(null);
-  useOutsideAlerter(wrapperRef, closeSideBar);
+  useOutsideAlerter(wrapperRef, closeSidebar);
 
   const sideItems = [
     {

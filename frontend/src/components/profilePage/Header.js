@@ -5,6 +5,7 @@ import { LiaBarsSolid } from "react-icons/lia";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import {useGlobalContext} from '@context/context'
 
 const Header = ({ text }) => {
   const router = useRouter();
@@ -21,7 +22,7 @@ const Header = ({ text }) => {
       </div>
       <div className="ml-auto">
         <div className="outline outline-1 outline-gray-200 w-[35px] h-[35px] rounded-full flex items-center justify-center">
-          <LiaBarsSolid className="text-dark cursor-pointer" />
+          <LiaBarsSolid className="text-dark cursor-pointer"/>
         </div>
       </div>
     </div>
