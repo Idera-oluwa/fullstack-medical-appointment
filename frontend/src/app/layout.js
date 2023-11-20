@@ -1,3 +1,4 @@
+import ReduxProvider from "../redux/ReduxProvider";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -12,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <ReduxProvider>
         <body className={inter.className}>{children}</body>
+      </ReduxProvider>
     </html>
   );
 }
