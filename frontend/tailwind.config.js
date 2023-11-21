@@ -46,7 +46,7 @@ module.exports = {
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
-        SofiaSans: ["Sofia Sans", "sans-serif"],
+        SofiaSans: ["Sofia Sans Extra Condensed", "sans-serif"],
       },
     },
   },
