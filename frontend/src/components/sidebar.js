@@ -12,7 +12,7 @@ const Dashboard = ({ openSideBar, closeSideBar }) => {
   console.log(openSideBar);
   const router = useRouter();
   const wrapperRef = useRef(null);
-  useOutsideAlerter(wrapperRef, closeSidebar);
+  useOutsideAlerter(wrapperRef, closeSideBar);
 
   const sideItems = [
     {

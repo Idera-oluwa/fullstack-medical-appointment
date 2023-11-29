@@ -1,0 +1,457 @@
+[
+    {
+      "name": "Dr. John Smith",
+      "medicalCenter": "City Hospital",
+      "stars": 4.5,
+      "reviews": [
+        {
+          "stars": 5,
+          "clientImage": "client1.jpg",
+          "clientName": "Alice Johnson",
+          "dateOfReview": "2023-01-15T00:00:00.000Z",
+          "comment": "Excellent service and care!"
+        },
+        {
+          "stars": 4,
+          "clientImage": "client2.jpg",
+          "clientName": "Bob Miller",
+          "dateOfReview": "2023-02-10T00:00:00.000Z",
+          "comment": "Knowledgeable and friendly."
+        }
+      ],
+      "image": "doctor_image.jpg",
+      "about": "Dr. John Smith is a highly experienced and skilled doctor specializing in cardiology. With a track record of successful treatments and a compassionate approach to patient care, Dr. Smith is dedicated to improving the health and well-being of his patients.",
+      "specialist": "Cardiology",
+      "degree": "Doctor of Medicine (MD), Cardiology Specialist",
+      "topDoctor":true,
+      "experience": [
+        {
+          "institutionName": "City Hospital",
+          "designation": "Senior Cardiologist",
+          "department": "Cardiology",
+          "employmentPeriod": {
+            "start": "2018-07-20T00:00:00.000Z",
+            "end": "2020-09-05T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Community Clinic",
+          "designation": "Cardiologist",
+          "department": "Cardiology",
+          "employmentPeriod": {
+            "start": "2014-03-08T00:00:00.000Z",
+            "end": "2016-06-27T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Emily Davis",
+      "medicalCenter": "Greenfield Medical Group",
+      "stars": 4.2,
+      "reviews": [
+        {
+          "stars": 3,
+          "clientImage": "client3.jpg",
+          "clientName": "Charlie Brown",
+          "dateOfReview": "2023-02-22T00:00:00.000Z",
+          "comment": "Average service, could be better."
+        },
+        {
+          "stars": 5,
+          "clientImage": "client4.jpg",
+          "clientName": "Eva White",
+          "dateOfReview": "2023-03-12T00:00:00.000Z",
+          "comment": "Exceptional care and attention to detail."
+        }
+      ],
+      "image": "doctor_image2.jpg",
+      "about": "Dr. Emily Davis is an experienced family physician, providing comprehensive and personalized healthcare to patients of all ages. Her commitment to preventive care and patient education sets her apart in the medical community.",
+      "specialist": "Family Medicine",
+      "degree": "Doctor of Medicine (MD), Family Medicine Specialist",
+      "experience": [
+        {
+          "institutionName": "Greenfield Medical Group",
+          "designation": "Family Physician",
+          "department": "Family Medicine",
+          "employmentPeriod": {
+            "start": "2015-04-15T00:00:00.000Z",
+            "end": "2019-11-30T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Hometown Clinic",
+          "designation": "General Practitioner",
+          "department": "Primary Care",
+          "employmentPeriod": {
+            "start": "2012-08-10T00:00:00.000Z",
+            "end": "2015-02-28T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Sarah Johnson",
+      "medicalCenter": "Sunset Medical Center",
+      "stars": 4.8,
+      "reviews": [
+        {
+          "stars": 5,
+          "clientImage": "client5.jpg",
+          "clientName": "David Clark",
+          "dateOfReview": "2023-02-28T00:00:00.000Z",
+          "comment": "Dr. Johnson is amazing, highly recommended!"
+        },
+        {
+          "stars": 4,
+          "clientImage": "client6.jpg",
+          "clientName": "Megan Taylor",
+          "dateOfReview": "2023-03-20T00:00:00.000Z",
+          "comment": "Great experience overall."
+        }
+      ],
+      "image": "doctor_image3.jpg",
+      "about": "Dr. Sarah Johnson is a renowned pediatrician known for her exceptional care and understanding of children's health. With years of experience, Dr. Johnson is committed to providing the best medical care for her young patients.",
+      "specialist": "Pediatrics",
+      "degree": "Doctor of Medicine (MD), Pediatric Medicine Specialist",
+      "topDoctor":true,
+      "experience": [
+        {
+          "institutionName": "Sunset Medical Center",
+          "designation": "Pediatrician",
+          "department": "Pediatrics",
+          "employmentPeriod": {
+            "start": "2016-12-10T00:00:00.000Z",
+            "end": "2021-05-15T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Bright Kids Clinic",
+          "designation": "Child Health Specialist",
+          "department": "Pediatrics",
+          "employmentPeriod": {
+            "start": "2013-05-02T00:00:00.000Z",
+            "end": "2016-11-30T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Michael Brown",
+      "medicalCenter": "Unity Medical Group",
+      "stars": 4.0,
+      "reviews": [
+        {
+          "stars": 3,
+          "clientImage": "client7.jpg",
+          "clientName": "Sophie Harris",
+          "dateOfReview": "2023-01-05T00:00:00.000Z",
+          "comment": "Average experience, nothing extraordinary."
+        },
+        {
+          "stars": 5,
+          "clientImage": "client8.jpg",
+          "clientName": "Liam Turner",
+          "dateOfReview": "2023-02-18T00:00:00.000Z",
+          "comment": "Dr. Brown is a fantastic doctor!"
+        }
+      ],
+      "image": "doctor_image4.jpg",
+      "about": "Dr. Michael Brown is an internal medicine specialist with a focus on adult healthcare. With a comprehensive approach to patient well-being, Dr. Brown is dedicated to helping adults maintain and improve their health.",
+      "specialist": "Internal Medicine",
+      "degree": "Doctor of Medicine (MD), Internal Medicine Specialist",
+      "experience": [
+        {
+          "institutionName": "Unity Medical Group",
+          "designation": "Internal Medicine Specialist",
+          "department": "Internal Medicine",
+          "employmentPeriod": {
+            "start": "2015-08-20T00:00:00.000Z",
+            "end": "2019-12-31T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Community Health Center",
+          "designation": "Primary Care Physician",
+          "department": "Internal Medicine",
+          "employmentPeriod": {
+            "start": "2012-03-15T00:00:00.000Z",
+            "end": "2015-07-31T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Olivia Turner",
+      "medicalCenter": "Metro Health Clinic",
+      "stars": 4.7,
+      "reviews": [
+        {
+          "stars": 5,
+          "clientImage": "client9.jpg",
+          "clientName": "Natalie Evans",
+          "dateOfReview": "2023-03-01T00:00:00.000Z",
+          "comment": "Dr. Turner is a caring and knowledgeable professional."
+        },
+        {
+          "stars": 4,
+          "clientImage": "client10.jpg",
+          "clientName": "Jason Adams",
+          "dateOfReview": "2023-03-18T00:00:00.000Z",
+          "comment": "Good experience overall."
+        }
+      ],
+      "image": "doctor_image5.jpg",
+      "about": "Dr. Olivia Turner is a skilled dermatologist with a passion for skin health. Offering a wide range of dermatological services, Dr. Turner is committed to helping her patients achieve and maintain healthy skin.",
+      "specialist": "Dermatology",
+      "degree": "Doctor of Medicine (MD), Dermatology Specialist",
+      "experience": [
+        {
+          "institutionName": "Metro Health Clinic",
+          "designation": "Dermatologist",
+          "department": "Dermatology",
+          "employmentPeriod": {
+            "start": "2016-05-10T00:00:00.000Z",
+            "end": "2020-08-30T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "SkinCare Center",
+          "designation": "Skin Health Specialist",
+          "department": "Dermatology",
+          "employmentPeriod": {
+            "start": "2012-11-18T00:00:00.000Z",
+            "end": "2016-04-30T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Andrew White",
+      "medicalCenter": "Harmony Medical Associates",
+      "stars": 4.4,
+      "reviews": [
+        {
+          "stars": 4,
+          "clientImage": "client11.jpg",
+          "clientName": "Emma Robinson",
+          "dateOfReview": "2023-02-05T00:00:00.000Z",
+          "comment": "Good doctor, but the wait times can be long."
+        },
+        {
+          "stars": 5,
+          "clientImage": "client12.jpg",
+          "clientName": "Sophia Turner",
+          "dateOfReview": "2023-03-25T00:00:00.000Z",
+          "comment": "Dr. White is patient and understanding."
+        }
+      ],
+      "image": "doctor_image6.jpg",
+      "about": "Dr. Andrew White is an experienced orthopedic surgeon specializing in the treatment of musculoskeletal disorders. Driven by a commitment to patient well-being, Dr. White provides comprehensive care for orthopedic conditions.",
+      "specialist": "Orthopedic Surgery",
+      "degree": "Doctor of Medicine (MD), Orthopedic Surgeon",
+      "experience": [
+        {
+          "institutionName": "Harmony Medical Associates",
+          "designation": "Orthopedic Surgeon",
+          "department": "Orthopedic Surgery",
+          "employmentPeriod": {
+            "start": "2017-02-15T00:00:00.000Z",
+            "end": "2021-07-10T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Sports Injury Center",
+          "designation": "Sports Medicine Specialist",
+          "department": "Orthopedics",
+          "employmentPeriod": {
+            "start": "2013-08-28T00:00:00.000Z",
+            "end": "2017-01-31T00:00:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dr. Sophia Miller",
+      "medicalCenter": "Evergreen Wellness Center",
+      "stars": 4.9,
+      "reviews": [
+        {
+          "stars": 5,
+          "clientImage": "client13.jpg",
+          "clientName": "Daniel Scott",
+          "dateOfReview": "2023-02-12T00:00:00.000Z",
+          "comment": "Dr. Miller is attentive and thorough in her examinations."
+        },
+        {
+          "stars": 5,
+          "clientImage": "client14.jpg",
+          "clientName": "Lily Brown",
+          "dateOfReview": "2023-03-15T00:00:00.000Z",
+          "comment": "The best doctor I've ever had!"
+        }
+      ],
+      "image": "doctor_image7.jpg",
+      "about": "Dr. Sophia Miller is a highly respected gynecologist providing compassionate and expert care to women of all ages. With a focus on women's health, Dr. Miller is dedicated to ensuring the well-being of her patients.",
+      "specialist": "Gynecology",
+      "degree": "Doctor of Medicine (MD), Gynecologist",
+      "topDoctor":true,
+      "experience": [
+        {
+          "institutionName": "Evergreen Wellness Center",
+          "designation": "Gynecologist",
+          "department": "Gynecology",
+          "employmentPeriod": {
+            "start": "2016-09-10T00:00:00.000Z",
+            "end": "2021-03-25T00:00:00.000Z"
+          }
+        },
+        {
+          "institutionName": "Women's Health Clinic",
+          "designation": "Women's Health Specialist",
+          "department": "Gynecology",
+          "employmentPeriod": {
+            "start": "2013-08-28T00:00:00.000Z",
+            "end": "2016-01-31T00:00:00.000Z"
+          }
+        }
+    ]
+    },
+    {
+        "name": "Dr. Robert Turner",
+        "medicalCenter": "Metro Health Center",
+        "stars": 4.3,
+        "reviews": [
+          {
+            "stars": 4,
+            "clientImage": "client15.jpg",
+            "clientName": "Olivia Harris",
+            "dateOfReview": "2023-02-18T00:00:00.000Z",
+            "comment": "Dr. Turner provides solid medical advice."
+          },
+          {
+            "stars": 5,
+            "clientImage": "client16.jpg",
+            "clientName": "Aiden Smith",
+            "dateOfReview": "2023-03-10T00:00:00.000Z",
+            "comment": "Always feel better after visiting Dr. Turner."
+          }
+        ],
+        "image": "doctor_image8.jpg",
+        "about": "Dr. Robert Turner is an experienced general practitioner dedicated to providing comprehensive healthcare for patients of all ages. With a focus on preventive care, Dr. Turner aims to improve the overall health of his patients.",
+        "specialist": "General Practice",
+        "degree": "Doctor of Medicine (MD), General Practitioner",
+        "experience": [
+          {
+            "institutionName": "Metro Health Center",
+            "designation": "General Practitioner",
+            "department": "Primary Care",
+            "employmentPeriod": {
+              "start": "2016-05-15T00:00:00.000Z",
+              "end": "2020-12-31T00:00:00.000Z"
+            }
+          },
+          {
+            "institutionName": "Community Medical Clinic",
+            "designation": "Family Medicine",
+            "department": "Family Medicine",
+            "employmentPeriod": {
+              "start": "2012-02-10T00:00:00.000Z",
+              "end": "2016-04-30T00:00:00.000Z"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dr. Jessica Adams",
+        "medicalCenter": "Harbor Pediatrics",
+        "stars": 4.6,
+        "reviews": [
+          {
+            "stars": 5,
+            "clientImage": "client17.jpg",
+            "clientName": "Ethan Turner",
+            "dateOfReview": "2023-03-05T00:00:00.000Z",
+            "comment": "Dr. Adams is fantastic with kids."
+          },
+          {
+            "stars": 4,
+            "clientImage": "client18.jpg",
+            "clientName": "Sophie Miller",
+            "dateOfReview": "2023-03-22T00:00:00.000Z",
+            "comment": "Great experience for my child's check-up."
+          }
+        ],
+        "image": "doctor_image9.jpg",
+        "about": "Dr. Jessica Adams is a compassionate pediatrician committed to the health and well-being of children. With a friendly approach, Dr. Adams ensures a positive experience for both children and their parents during medical visits.",
+        "specialist": "Pediatrics",
+        "degree": "Doctor of Medicine (MD), Pediatric Medicine Specialist",
+        "topDoctor":true,
+        "experience": [
+          {
+            "institutionName": "Harbor Pediatrics",
+            "designation": "Pediatrician",
+            "department": "Pediatrics",
+            "employmentPeriod": {
+              "start": "2017-08-20T00:00:00.000Z",
+              "end": "2022-01-10T00:00:00.000Z"
+            }
+          },
+          {
+            "institutionName": "Children's Wellness Clinic",
+            "designation": "Child Health Specialist",
+            "department": "Pediatrics",
+            "employmentPeriod": {
+              "start": "2014-03-15T00:00:00.000Z",
+              "end": "2017-07-31T00:00:00.000Z"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dr. Benjamin Turner",
+        "medicalCenter": "Harmony Dental Care",
+        "stars": 4.8,
+        "reviews": [
+          {
+            "stars": 5,
+            "clientImage": "client19.jpg",
+            "clientName": "Ava Robinson",
+            "dateOfReview": "2023-03-08T00:00:00.000Z",
+            "comment": "Dr. Turner is gentle and caring."
+          },
+          {
+            "stars": 4,
+            "clientImage": "client20.jpg",
+            "clientName": "Lucas Scott",
+            "dateOfReview": "2023-03-25T00:00:00.000Z",
+            "comment": "Positive dental experience with Dr. Turner."
+          }
+        ],
+        "image": "doctor_image10.jpg",
+        "about": "Dr. Benjamin Turner is a skilled dentist dedicated to providing quality dental care for patients of all ages. With a focus on preventive dentistry, Dr. Turner aims to help patients achieve and maintain optimal oral health.",
+        "specialist": "Dentistry",
+        "degree": "Doctor of Dental Medicine (DMD), Dentist",
+        "experience": [
+          {
+            "institutionName": "Harmony Dental Care",
+            "designation": "Dentist",
+            "department": "Dentistry",
+            "employmentPeriod": {
+              "start": "2015-06-10T00:00:00.000Z",
+              "end": "2019-12-31T00:00:00.000Z"
+            }
+          },
+          {
+            "institutionName": "Smile Wellness Center",
+            "designation": "Oral Health Specialist",
+            "department": "Dentistry",
+            "employmentPeriod": {
+              "start": "2012-02-15T00:00:00.000Z",
+              "end": "2015-05-30T00:00:00.000Z"
+            }
+          }
+        ]
+      }
+    ]
+  
